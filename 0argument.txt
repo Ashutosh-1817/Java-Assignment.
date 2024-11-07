@@ -1,0 +1,27 @@
+
+
+class Car {
+    String brand;
+    int year;
+
+   
+    public Car() {
+        brand = "Toyota";
+        year = 2023;
+    }
+
+  
+    public void displayInfo() {
+        System.out.println("Car brand: " + brand);
+        System.out.println("Manufacturing year: " + year);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+       
+        Car car = new Car();
+
+              car.displayInfo();
+    }
+}
